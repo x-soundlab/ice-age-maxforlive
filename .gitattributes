@@ -1,0 +1,9 @@
+*.amxd binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.maxpat text
+*.js text eol=lf
+*.md text eol=lf
+*.txt text eol=lf

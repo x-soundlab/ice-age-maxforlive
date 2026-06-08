@@ -1,0 +1,20 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Max temporary / backup files
+*.maxpat~
+*.bak
+*.tmp
+
+# Ableton project backups
+Backup/
+*.als.asd
+*.wav.asd
+*.aif.asd
+
+# Node dependencies, if ever used outside Max/Node for Max
+node_modules/
+
+# Local notes
+_private/
