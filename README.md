@@ -36,12 +36,6 @@ sidechain trigger skip
 
 That track will be ignored by ICE AGE. This is useful for sidechain triggers, routing tracks, reference tracks, or anything you want to keep active.
 
-## v1.0.2 folded-group fix
-
-This version fixes the issue where tracks inside a closed/folded group were not frozen correctly.
-
-ICE AGE now temporarily unfolds group tracks before building the queue. This allows child tracks inside closed groups to be selected and frozen. When the queue finishes, stops, or times out, the device tries to restore the previous group fold state.
-
 ## How it works
 
 Ableton Live does not expose a clean public per-track Freeze method to Max for Live. Because of that, ICE AGE uses a controlled workflow:
