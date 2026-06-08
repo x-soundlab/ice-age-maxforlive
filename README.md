@@ -4,7 +4,7 @@
 
 Freeze all audio tracks, all MIDI tracks, or the whole project with a single button. It is made for producers and collaborators tired of broken sessions, missing plugins, heavy CPU usage, and plugin version chaos.
 
-![ICE AGE preview](assets\preview\preview_iceage.png)
+![ICE AGE preview](assets/preview/preview_iceage.png)
 
 https://maxforlive.com/profile/user/Aynixx?tab=devices
 
@@ -17,7 +17,6 @@ Main controls:
 - **FREEZE AUDIO** - freezes eligible audio tracks.
 - **FREEZE MIDI** - freezes eligible MIDI tracks.
 - **ICE AGE** - freezes eligible audio and MIDI tracks.
-- **STOP** - stops and resets the current queue.
 
 ## Smart skipping
 
