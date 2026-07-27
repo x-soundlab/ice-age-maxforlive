@@ -6,8 +6,6 @@ Freeze all audio tracks, all MIDI tracks, or the whole project with a single but
 
 ![ICE AGE preview](assets/preview/preview_iceage.png)
 
-https://maxforlive.com/profile/user/Aynixx?tab=devices
-
 ## What it does
 
 ICE AGE scans your Ableton Live Set, builds a freeze queue, and freezes eligible tracks one by one using Ableton Live's own Freeze command.
@@ -23,7 +21,6 @@ Main controls:
 ICE AGE automatically skips:
 
 - the track containing the ICE AGE device, when detected
-- group/foldable tracks themselves
 - tracks already frozen
 - tracks Ableton cannot freeze
 - tracks whose name contains `skip`
@@ -67,11 +64,9 @@ Do **not** rename the JavaScript files in the device folder. The Max for Live de
 - Tested primarily on Windows with Ableton Live 12.
 - macOS support uses AppleScript/System Events and may require Accessibility / Automation permissions.
 
-## Windows focus behavior
+## Focus behavior
 
-On Windows, if Ableton Live is already focused, ICE AGE does not move the mouse. If another window is focused, it brings Ableton Live forward and clicks only the top/title area before sending the Freeze shortcut.
-
-## macOS notes
+On Windows, if Ableton Live is already focused works clean. If another window is focused, it brings Ableton Live forward and clicks only the top/title area before sending the Freeze shortcut.
 
 macOS may require permissions in:
 
