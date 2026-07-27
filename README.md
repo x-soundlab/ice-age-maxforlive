@@ -4,7 +4,7 @@
 
 Freeze all audio tracks, all MIDI tracks, or the whole project with a single button. It is made for producers and collaborators tired of broken sessions, missing plugins, heavy CPU usage, and plugin version chaos.
 
-![ICE AGE preview](assets/preview/preview_iceage.png)
+![ICE AGE preview](source/assets/preview/preview_iceage.png)
 
 ## What it does
 
